@@ -27,7 +27,7 @@ body {
   background-size: cover;
   font-family: 'Gotham', sans-serif;
   width: 100%;
-  height: 800px;
+  height: auto;
   margin: 0;
   padding: 0;
 }
@@ -48,6 +48,11 @@ body {
   width: 70%;
 }
 
+
+.boton-home {
+  width: 80%;
+  margin-bottom: 80px;
+}
 .boton {
   display: flex;
   justify-content: center;
@@ -69,6 +74,20 @@ body {
   height: auto;
 }
 
+@media (max-width: 768px) {
+
+  .content-home {
+    width: 80%;
+  }
+  .boton-home{
+    width: 60%;
+    margin-bottom: 60px;
+  }
+  .logo img{
+    width: 150px;
+  }
+}
+
 
 /* -------------SECTION CLIENTS---------------- */
 
@@ -76,7 +95,7 @@ body {
   background-color: #161616;
   font-family: 'Gotham', sans-serif;
   width: 80%;
-  height: 900px;
+  height: AUTO;
   margin: 0;
   margin-top: 100px;
   padding: 0;
@@ -189,13 +208,61 @@ body {
 }
 
 
+
+@media (max-width: 768px) {
+  .box-img img {
+    content: url('../img/paraquien-mobile.png');
+    width: 100%;
+  }
+  .container{
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .clients{
+    width: 100%;
+    margin-left: 0px;
+  }
+  .icon{
+    width: 10px;
+  }
+  .open{
+    width: 15px;
+    margin-top: 17px;
+  }
+  .title-clients{
+    font-size: 15px;
+  }
+  .text-clients{
+    width: 70%;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-left: 18px;
+  }
+  .box-section{
+    width: 100%;
+  }
+
+  .box{
+    width: 80%;
+    margin-top: auto;
+  }
+  .box-mayor{
+    margin-left: 100px;
+    height: 100px;
+  }
+  .line{
+    width: 80%;
+  }
+}
+
+
 /* -------------SECTION FUNCTION---------------- */
 
 .function {
   background-color: #161616;
   font-family: 'Gotham', sans-serif;
   width: 100%;
-  height: 900px;
+  height: auto;
   margin: 0;
   padding: 0;
   position: relative;
@@ -223,13 +290,36 @@ body {
 
 .contenido{
   width: 80%;
-  margin-top: 20%;
+  margin-top: 25%;
 }
 
 .comencemos{
   width: 200px;
   margin-top: 100px;
+  margin-bottom: 100px;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .contenedor-function{
+    flex-direction: column;
+  }
+  .funcion {
+    content: url('../img/funcion-mobile.png');
+    width: 70%;
+    margin-left: 10%;
+    margin-top: -80px;}
+  .contenido{
+    content: url('../img/cont-mobile.png');
+    margin-top: 120%;
+  }
+  .comencemos{
+    width: 50%;
+    margin-top: 50px;
+  }
+  .linea{
+    width: 50%;
+  }
 }
 
 /* -------------ABOUT---------------- */
@@ -238,7 +328,7 @@ body {
   background-color: #161616;
   font-family: 'Gotham', sans-serif;
   width: 100%;
-  height: 800px;
+  height: auto;
   margin: 0;
   padding: 0;
   position: relative;
@@ -252,12 +342,17 @@ body {
   width: 90%;
 }
 
+@media (max-width: 768px) {
+  .img-about{
+    content: url('../img/about-mobile.png');
+  }
+}
 /* -------------SOCIOS---------------- */
 .socios {
   background-color: #161616;
   font-family: 'Gotham', sans-serif;
   width: 100%;
-  height: 750px;
+  height: auto;
   margin: 0;
   padding: 0;
   position: relative;
@@ -293,6 +388,7 @@ body {
   grid-gap: -10px;
   justify-content: center;
   align-items: center;
+  margin-bottom: 80px;
 }
 .video-slide {
   position: relative;
@@ -320,7 +416,7 @@ body {
   background-color: #161616;
   font-family: 'Gotham', sans-serif;
   width: 100%;
-  height: 800px;
+  height: auto;
   margin: 0;
   padding: 0;
   position: relative;
@@ -332,7 +428,7 @@ body {
   margin-left: 0;
   position: absolute;
   left: 0;
-  top: -50px;
+  top: 0;
   }
 
 /* -------------DUDAS---------------- */
@@ -344,7 +440,7 @@ body {
     background-size: cover;
     font-family: 'Gotham', sans-serif;
     width: 100%;
-    height: 350px;
+    height: auto;
     margin: 0;
     padding: 0;
     display: flex;
@@ -379,7 +475,7 @@ body {
   background-position: center;
   font-family: 'Gotham', sans-serif;
   width: 100%;
-  height: 320px;
+  height: auto;
   margin: 0;
   padding: 0;
   display: flex;

@@ -52,7 +52,7 @@ const Clients = () => {
       },
       {
         title: 'AMANTES DE LA COMUNIDAD',
-        text: 'Personas que buscan ser parte de nuestra hermosa Comunidad Skaygym pero se encuentran a cientos de kilómetros de distancia: no se preocupen, acá llegó la solución perfecta.',
+        text: 'Personas que buscan ser parte de nuestra hermosa Comunidad Skaygym pero se encuentran a kilómetros de distancia: no se preocupen, acá llegó la solución.',
       },
                   
     
