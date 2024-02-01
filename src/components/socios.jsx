@@ -6,7 +6,8 @@ import video2 from '../img/video2.mp4';
 import video3 from '../img/video3.mp4';
 import video4 from '../img/video4.mp4';
 import TSocios from '../img/socios.png';
-import Linea from '../img/linea.png';
+import Linea from '../img/linea2.png';
+
 
 
 const Socios = () => {
@@ -43,7 +44,6 @@ const Socios = () => {
     <section className='socios'>
 
         
-        <img className='linea2' src={Linea} alt="" />
         
         <div className='title-socios'>
             <img src={TSocios} alt="" />
@@ -92,6 +92,8 @@ const Socios = () => {
         </div>
       </div>
       </center>
+      <img className='linea-izq' src={Linea} alt="" />
+
     </section>
   );
 };

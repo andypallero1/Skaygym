@@ -37,6 +37,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .logo img {
@@ -46,12 +47,13 @@ body {
 
 .content-home{
   width: 70%;
+  margin-bottom: 30px;
 }
 
 
 .boton-home {
   width: 80%;
-  margin-bottom: 80px;
+  margin-bottom: 120px;
 }
 .boton {
   display: flex;
@@ -103,6 +105,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin-left: 180px;
+  margin-bottom: 50px;
 }
 
 .paraquien {
@@ -285,12 +288,13 @@ body {
   position: absolute;
   margin-left: 0;
   left: 5%;
-  top: 10%;
+  top: 15%;
+  bottom: 50%;
 }
 
 .contenido{
   width: 80%;
-  margin-top: 25%;
+  margin-top: 33%;
 }
 
 .comencemos{
@@ -300,6 +304,15 @@ body {
   cursor: pointer;
 }
 
+.linea-funcion {
+  width: 30%;
+  margin-left: 0;
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  }
+
+
 @media (max-width: 768px) {
   .contenedor-function{
     flex-direction: column;
@@ -308,10 +321,11 @@ body {
     content: url('../img/funcion-mobile.png');
     width: 70%;
     margin-left: 10%;
-    margin-top: -80px;}
+    margin-top: -100px;
+    }
   .contenido{
     content: url('../img/cont-mobile.png');
-    margin-top: 120%;
+    margin-top: 170%;
   }
   .comencemos{
     width: 50%;
@@ -319,6 +333,10 @@ body {
   }
   .linea{
     width: 50%;
+  }
+
+  .linea-funcion{
+    width: 50%!important;
   }
 }
 
@@ -336,15 +354,29 @@ body {
   flex-direction: column;
   justify-content: center; 
   align-items: center;
+  top: 50%;
 }
 
 .img-about{
   width: 90%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
+
+  .linea-der {
+    width: 30%;
+    margin-right: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    }
 
 @media (max-width: 768px) {
   .img-about{
     content: url('../img/about-mobile.png');
+  }
+  .linea-der{
+    width: 50%;
   }
 }
 /* -------------SOCIOS---------------- */
@@ -357,20 +389,15 @@ body {
   padding: 0;
   position: relative;
   z-index: 1;
+  margin-bottom: 150px;
 }
 
-  .linea2 {
-    width: 30%;
-    margin-right: 0;
-    position: absolute;
-    right: 0;
-    top: -100px;
-    }
+
 
   .title-socios {
     width: 60%;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     margin-top: 100px;
     padding: 0;
     left: 5%;
@@ -410,6 +437,24 @@ body {
   cursor: pointer;
 }
 
+.linea-izq {
+  width: 30%;
+  margin-left: 0;
+  position: absolute;
+  left: 0;
+  bottom: -140px;
+  }
+
+  @media (max-width: 768px) {
+    .title-socios {
+      width: 100%;
+      margin-bottom: 100px;
+    }
+    .linea-izq{
+      width: 50%;
+    }
+  }
+
 /* -------------PLANES---------------- */
 
 .planes {
@@ -421,19 +466,29 @@ body {
   padding: 0;
   position: relative;
   z-index: 1;
+  margin-top: 3%;
+  margin-bottom: 10%;
+}
+
+.title-planes{
+  width: 60%;
+  position: relative;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  padding: 0;
+  z-index: 1;
+
 }
 
 .planes-content{
   margin-bottom: 50px;
 }
 
-.linea3 {
-  width: 30%;
-  margin-left: 0;
-  position: absolute;
-  left: 0;
-  top: 0;
+@media (max-width: 768px) {
+  .title-planes{
+    width: 100%!important;
   }
+}
 
 /* -------------DUDAS---------------- */
 
@@ -454,8 +509,9 @@ body {
   }
 
   .dudas-preg{
-    width: 80%;
+    width: 100%;
     margin-top: 50px;
+    margin-bottom: 60px;
   }
 
   .dudas-redes{
@@ -463,12 +519,12 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 
   }
 
   .dudas-redes img{
-    width: 50%;
+    width: 60%;
   }
 
 /* -------------FOOTER---------------- */

@@ -11,9 +11,8 @@ const Planes = () => {
 const mensajePredeterminado = "Hola! Quiero obtener más información sobre el ";
   return (
     <section className='planes'>
-      <img className='linea3' src={Linea} alt="" />
       <center>
-        <img src={Titulo} alt="" style={{ width: '40%',marginTop: '50px'}} />
+        <img className='title-planes' src={Titulo} alt="" style={{ width: '40%',marginTop: '50px'}} />
         <div className='planes-content'>
             <a href={`https://wa.me/<2216554482>?text=${encodeURIComponent(mensajePredeterminado + 'Plan Inicial')}`}>
             <img src={PlanUno} alt="" style={{ width: '250px', margin: '50px'  }} />

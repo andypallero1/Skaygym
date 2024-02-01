@@ -3,6 +3,7 @@ import '../styles/index.css';
 import { Link } from 'react-scroll';
 
 import Linea from '../img/linea.png';
+import Linea2 from '../img/linea2.png';
 import Funcion from '../img/img1.png';
 import Contenido from '../img/img2.png';
 import Comencemos from '../img/comencemos.png';
@@ -19,6 +20,8 @@ const Function = () => {
         </Link>
       </center>
       </div>
+      <img className='linea-funcion' src={Linea2} alt="" />
+
     </section>
   );
 };
